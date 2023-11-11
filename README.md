@@ -1,12 +1,14 @@
-[gRPC and Protocol Buffers][get started]
+[gRPC and Protocol Buffers][get started] <br>
+[set up][build and locally install gRPC from source]
 
 <h3>Todo App</h3>
-to generate your grpc.pb.cc, grpc.pb.hh pb.cc, pb.h run the blow command
-// protoc -I=. --cpp_out=. todo.proto
-// protoc -I=. --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` todo.proto
+to generate your grpc.pb.cc, grpc.pb.hh pb.cc, pb.h run the blow command <br>
+$ protoc -I=. --cpp_out=. todo.proto <br>
+$ protoc -I=. --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` todo.proto <br>
 
 <h3> To run the your grpc cline and server</h3>
-1. Follow the Quick start instructions to build and locally install gRPC from source [build and locally install gRPC from source]. <br>
+[set up][build and locally install gRPC from source]
+1. Follow the Quick start instructions to build and locally install gRPC from source. <br>
 2. Run cmake <br>
 $ mkdir -p cmake/build <br>
 $ cd cmake/build <br>
